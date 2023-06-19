@@ -1,14 +1,36 @@
 body{
-    background-color:gray;
+    background-color: lightgray;
+}
+div{
+    background-color:white;
+    height:400px;
+    width:580px;
+    margin:auto;
 }
 
-.flame{
-    background-color: white;
-    height:500px;
-    width:800px;
-    margin:center;
+.card{
+    width: 260px;
+    height: 360px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+   
 }
-th{
-    text-align
-    font-size:32px;
+img{
+    height:260px;
+    width:260px;
+}
+
+span{
+    position: relative;
+    display:flex;
+    padding:auto;
+    margin:auto;
+    
+}
+.card-name{
+    font-weight: bold;
+}
+p{
+    text-align:left;
+    font-size:18px;
+    text-align:left;
 }
