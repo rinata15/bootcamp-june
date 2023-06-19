@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign up</h1>
+    <form action="#" method="#">
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" placeholder="use only apphameric" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" requierd>
+
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="10" max="65">
+
+        <br><br>
+        <label for="calender">Birthday</label>
+        <input type="calender" name="birthday" id="calender">
+
+         <br><br>
+         <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="mail@mail.com" >
+        <br><br>
+        <label for="bio">Bio/Description</label>
+        <textarea name="bio" id="bio" cols="50" rows="20"></textarea>
+        
+        <br><br>
+        <p>Choose your genre of music:</p>
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="rock">Rock</label>
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="pop">Pop</label>
+       <input type="radio" name="music" id="jazz" value="azz">
+       <label for="jaxx">Jazz</label>
+       <br><br>
+       <p>Select your favorite food:</p>
+       <input type="checkbox" name="food" id="sushi" value="sushi">
+       <label for="sushi">Sushi</label>
+       <input type="checkbox" name="food" id="curry" value="curry">
+       <label for="sushi">Curry</label>
+       <input type="checkbox" name="food" id="takoyaki" value="takoyaki">
+       <label for="sushi">Takoyaki</label>
+
+       <br><br>
+       <label for="device">Select your device</label>
+       <select name="device" id="device">
+            <option selevted disabled>Select your device</option>        
+            <option value="mobile">Mobile Device</option>
+            <option value="mobile">Mobile Tablet</option>
+            <option value="mobile">Laptop Computer</option>
+            <option value="mobile">Desktop Computer</option>
+       </select>
+
+       <br><br>
+       <label for="car">Select a car</label>
+       <select name="car" id="car" multiple>
+            <option selevted disabled>Select a car</option>        
+            <option value="honda">Honda</option>
+            <option value="toyota">Toyota</option>
+            <option value="nissan">Nissan</option>
+       </select>
+
+       <br><br>
+       <label for="photo">Upload Profile photo:</label>
+       <input type="file" name="photo" id="photo">
+
+
+       <br><br>
+       <input type="submit" value="Submit" name="btn_submit">
+       <button type="reset" name="reset_btn">Reset</button> 
+
+    </form> 
+</body>
+</html>

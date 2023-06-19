@@ -1,0 +1,132 @@
+
+div{
+    border: solid black;
+/*    background-color:aquamarine;*/
+}
+
+
+.m-10px{
+    margin:10px; 
+}
+
+.m-10px-20px{
+    margin:10px 20px; 
+}
+
+.m-10px-20px-30px{
+    margin:10px 20px 30px; 
+}
+
+.m-10px-20px-30px-40px{
+    margin:10px 20px 30px 40px; 
+}
+
+.mt-10px{
+    margin-top:10px
+}
+.mr-10px{
+    margin-right:10px
+}
+.mb-10px{
+    margin-bottom:10px
+}
+.ml-10px{
+    margin-left:10px
+}
+
+.p-10px{
+    padding:10px; 
+}
+
+.p-10px-20px{
+    padding:10px 20px; 
+}
+
+.p-10px-20px-30px{
+    padding:10px 20px 30px; 
+}
+
+.p-10px-20px-30px-40px{
+    padding:10px 20px 30px 40px; 
+}
+
+.pt-10px{
+    padding-top:10px
+}
+.pr-10px{
+    padding-right:10px
+}
+.pb-10px{
+    padding-bottom:10px
+}
+.pl-10px{
+    padding-left:10px
+}
+
+.solid{
+    border:10px solid tomato;
+    margin:10px;
+}
+
+.dotted{
+    border:10px dotted teal;
+    margin:10px;
+}
+
+.dashed{
+    border: 10px dashed crimson;
+    margin:10px;
+}
+
+.double{
+    border:10px double seagreen;
+    margin:10px;
+}
+
+.groove{
+    border: 10px groove gray;
+    margin:10px;
+}
+
+.ridge{
+    border:10px ridge gray;
+    margin:10px;
+}
+
+.inset{
+    border: 10px inset dodgerblue;
+    margin:10px;
+}
+
+.outset{
+    border: 20px outset goldenrod;
+    margin:10px;
+}
+
+.radius{
+    border: 10px solid black;
+    border-radius:50px;
+    margin:10px;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}
+
+.box-shadow{
+    box-shadow: -30px -50px 6ox 25px darkred;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.block-center{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}

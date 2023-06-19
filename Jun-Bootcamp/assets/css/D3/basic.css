@@ -1,0 +1,23 @@
+/* EXTERNAL CSS */
+p{
+    background-color: deeppink;
+    color:white;
+}
+h2{
+    color: blue;
+}
+
+/*  */
+*{
+    color: darkred;
+}
+.text-center{
+    text-align;color-interpolation-filters;
+    background-color:green;
+    color:white;
+}
+#heading-2{
+    text-align;color-interpolation-filters;
+    background-color:green;
+    color:white;
+}

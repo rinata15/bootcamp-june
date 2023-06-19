@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please fill in the survey form</h1>
+    <form action="#" method="#">
+        <table>
+            <tr>
+                <td>
+                    <label for="firstname">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="firstname" id="firstname">
+                </td>
+                <td>
+                    <label for="mi">MI:</label>
+                </td>
+                <td>
+                    <input type="text" name="mi" id="mi">
+                </td>
+                <td>
+                    <label for="lastname">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="lastname" id="lastname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City:</label>
+                </td>
+                <td>
+                    <input type="text" name="city" id="city">
+                </td>
+                <td>
+                    <label for="state">State:</label>
+                </td>
+                <td>
+                    <input type="text" name="state" id="state">
+                </td>
+                <td>
+                    <label for="zip">Zip Code</label>
+                </td>
+                <td>
+                    <input type="text" name="zip" id="zip">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <div>Choose a Sport:</div>
+                <input type="checkbox" name="sport" id="basketball" value="basketball">
+                <label for="basketball">Basketball</label>
+                <input type="checkbox" name="sport" id="football" value="football">
+                <label for="football">Football</label>
+                <input type="checkbox" name="sport" id="hockey" value="hockey">
+                <label for="hockey">Hockey</label>
+                <br>
+                <div>Choose a Year:</div>
+                <input type="radio" name="year" id="freshman" value="freshman">
+                <label for="freshman">Freshman</label>
+                <input type="radio" name="year" id="junior" value="junior">
+                <label for="junior">Junior</label>
+                <input type="radio" name="year" id="senior" value="senior">
+                <label for="senior">Senior</label>
+                <div><label for="foog">Choose Your Favorite Food:</label>
+                </div>
+    
+                    <select name="food" id="food" multiple>   
+                        <option value="chips">Chips</option>
+                       <option value="pizza">Pizza</option>
+                       <option value="nachos">Nachos</option>
+                       <option selevted disabled></option>     
+                   </select>
+                   <br>
+            </tr>
+            <tr>
+                <textarea name="comments" id="comments" cols="25" rows="7" placeholder="Please let us know your comments"></textarea> 
+                    <br>
+                    <button type="submit" name="btn_submit">Send it</button>
+                    <button type="reset" name="btn_reset">Clear it</button> 
+            </tr>
+    
+                    
+            </tr>
+        </table>
+
+
+    </form> 
+</body>
+</html>

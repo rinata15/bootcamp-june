@@ -1,0 +1,132 @@
+
+.w-img-200px{
+    width: 200px;
+}
+
+.w-img-50-percent{
+    width: 50%;
+}
+
+.h-img-300px{
+    height: 300px;
+}
+
+.h-img-50-percent{
+    height: 50%;
+}
+.bg-rabbit{
+    background-image: url(../images/rabbit-01.jpg);
+}
+
+.w-100-percent{
+    width:100px;
+}
+
+.h-300px{
+    height: 300px;
+}
+
+.bg-repeat-no-repeat{
+    background-image: url(../images/dot/jpg);
+    background-repeat: no-repeat; /*default value*/
+}
+
+
+.bg-repeat-repeat-x{
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat-x; /*default value*/
+    width: 100%;
+    height: 350px;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+
+.bg-repeat-repeat-y{
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat-y; /*default value*/
+    width: 100%;
+    height: 350px;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+.bg-repeat-repeat{
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat; /*default value*/
+    width: 100%;
+    height: 350px;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+.bg-left-top{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.bg-left-center{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.bg-left-buttom{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.bg-center-top{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.bg-center-center{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bg-center-bottom{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.bg-right-top{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bg-left-center{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.bg-right-bottom{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.div-size{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    margin: 25px;
+}
+.bg-fixed{
+    background-image: url(../images/rabbit-02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-scroll{
+    background-image: url(../images/rabbit-02.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.bg-shorthand{
+    background: darkorange url(../images/rabbit-01.jpg) no-repeat fixed center;
+    background-size: cover;
+
+
+}

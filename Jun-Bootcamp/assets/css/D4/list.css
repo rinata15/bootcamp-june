@@ -1,0 +1,12 @@
+.style-position-outside{
+    list-style-position:outside;
+}
+.style-position-inside{
+    list-style-position:inside;
+}
+.list-style-square-outside{
+    list-style: square outside;
+}
+.list-style-square-inside{
+    list-style: inside;
+}
